@@ -1,0 +1,16 @@
+capabilites of Node:
+Command-line tools (in shell script style)
+An interactive-terminal style of program—that is, a read-eval-print loop
+(REPL)
+Excellent process control functions to oversee child processes
+A buffer object to deal with binary data
+TCP or UDP sockets with comprehensive, event-driven callbacks
+DNS lookup
+An HTTP, HTTPS, and HTTP/2-client server layered on top of the TCP
+library filesystem access
+Built-in rudimentary unit testing support through assertions.
+2)multitasking refers to doing many tasks at the same time, multi-threading refers to the ability to process multiple threads at the same time. 
+The async function approach solves that coding complexity. The coding style is more
+natural since the results and errors land in the natural place, at the next line of
+code. The await keyword integrates asynchronous result handling without blocking
+the execution thread. A lot is buried under the covers of the async/await feature
