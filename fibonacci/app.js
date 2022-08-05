@@ -7,8 +7,8 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 // const usersRouter = require('./routes/users');
-const fibonacciRouter=require('./routes/fibonacci')
-
+// const fibonacciRouter=require('./routes/fibonacci')
+const fibonacciRouter = require('./routes/fibonacci-async1')
 const app = express();
 
 // view engine setup
