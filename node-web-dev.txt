@@ -14,3 +14,16 @@ The async function approach solves that coding complexity. The coding style is m
 natural since the results and errors land in the natural place, at the next line of
 code. The await keyword integrates asynchronous result handling without blocking
 the execution thread. A lot is buried under the covers of the async/await feature
+
+
+
+why we use framework at all?
+Answer is The usual best practices include the following:
+Providing a page for bad URLs (the 404 page)
+Screening URLs and forms for any injected scripting attacks
+Supporting the use of cookies to maintain sessions
+Logging requests for both usage tracking and debugging
+Authentication
+Handling static files, such as images, CSS, JavaScript, or HTML
+Providing cache-control headers to caching proxies
+Limiting things such as the page size or execution time
